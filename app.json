@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "shoppingApp",
-    "slug": "shoppingApp",
+    "name": "shoppingapp",
+    "slug": "shoppingapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e92517ff-2540-4e00-b819-7f183606480e"
+      }
+    },
+    "owner": "schurke1612",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e92517ff-2540-4e00-b819-7f183606480e"
     }
   }
 }
